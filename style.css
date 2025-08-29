@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color:rgb(253, 250, 250);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    background-color:black
+
+}
+.navbar a{
+    text-decoration: none;
+    color:#ffff;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;
+    margin:10px;
+
+}
+.cards{
+    text-align: center;
+    background-color: rgb(68, 67, 67);
+    color: rgb(10, 19, 36);
+    padding:50px;
+    border-radius: 5px;
+ 
+}
+.contact{
+   background-color: ;
+}
+.contact form{
+    margin:0 auto;
+    padding:20px;
+    width:300px;
+    border:solid black;
+
+
+}
+form label{
+    font-size:12px;
+}
+
+footer{
+    background-color: aqua;
+    padding:30px;
+    text-align: center;
+}
