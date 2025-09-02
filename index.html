@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1> an interactive website using javascript and Dom</h1>
-        <button class="mode">Dark Mode</button>
+        <button id="mode">Dark Mode</button>
     </header>
     <nav class="nav-container">
         <div class="navbar">
@@ -38,9 +38,9 @@
         </div>
 
         <div class="contact">
-            <form action="">
+            <form action="" id="form">
              <label for="firstname">firstname</label><br>
-             <input type="text" name="firstname" id="fname" placeholder="enter firstname"><br>
+             <input type="text" name="firstname" id="fname" onfocus="this.style.background='red';" placeholder="enter firstname"><br>
              <label for="lastname">lastname</label><br>
              <input type="text" name="lastname" id="lname" placeholder="enter lastname"><br>
              <label for="email">email</label><br>
